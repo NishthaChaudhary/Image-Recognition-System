@@ -29,6 +29,14 @@ This means throwing away the data randomly to make the learning of the model mor
 
 ## Feature Extraction from a Pre-trained model- vgg16
 
+### Sample Image:
+
+![image](https://user-images.githubusercontent.com/54689111/82658218-a0c7de00-9bf4-11ea-8a6d-16f5ba697046.png)
+
+### Output:
+
+![image](https://user-images.githubusercontent.com/54689111/82658290-bd641600-9bf4-11ea-9b1b-9e40389c0162.png)
+
 ### 1. Use Transfer Learning
 
 With transfer learning, we are going to start with NN that'a already been trained to recognize objects from a large dataset like ImageNet. We keep all tha convolutional layers that detect the patterns  of the data and chop off the last layer that maps the image with its category or label.
