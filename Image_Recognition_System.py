@@ -13,7 +13,7 @@ from keras.preprocessing import image
 import numpy as np
 import joblib
 
-# List of names for each CIFAR10 class
+# List  of names for each CIFAR10 class
 cifar10_class_names = {
     0: "Plane",
     1: "Car",
